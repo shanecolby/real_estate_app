@@ -1,5 +1,5 @@
 class RemoveFloors < ActiveRecord::Migration[6.0]
   def change
-    remove column: :Properties, :floor, :integer
+    remove_column :properties, :floors, :integer
   end
 end
