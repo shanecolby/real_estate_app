@@ -4,7 +4,7 @@
   square_feet: @property.square_feet,
   bedrooms: @property.bedrooms,
   bathrooms: @property.bathrooms,
-  # floors: @property.floors,
+  floors: @property.floors,
   availability: @property.availability,
   address: @property.address,
   price: @property.price,

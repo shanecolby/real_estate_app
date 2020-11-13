@@ -11,7 +11,7 @@ class Api::PropertiesController < ApplicationController
       square_feet: params[:square_feet], 
       bedrooms: params[:bedrooms], 
       bathrooms: params[:bathrooms], 
-      # floors: params[:floors], 
+      floors: params[:floors], 
       availability: params[:availability], 
       address: params[:address],
       price: params[:price],
